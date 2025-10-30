@@ -15,7 +15,7 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 ---
 
 ## 🏗️ Structure du projet  
-
+```txt
 📂 Projet-Scraping/
 │
 ├── scrape.py # Script principal exécuté via la ligne de commande
@@ -24,7 +24,7 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 ├── requirements.txt # Dépendances Python nécessaires
 ├── README.md # Documentation du projet
 └── data/ # Dossier où les CSV extraits sont enregistrés
-
+```
 ---
 
 | Paramètre        | Obligatoire | Description                                                                            | Exemple                       |
