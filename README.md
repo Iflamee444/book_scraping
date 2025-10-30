@@ -30,8 +30,8 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 | Paramètre        | Obligatoire | Description                                                                            | Exemple                       |
 | ---------------- | ----------- | -------------------------------------------------------------------------------------  | ----------------------------- |
 | `--categories`   | ❌           | Liste des catégories à scraper. Si non précisé, toutes les catégories sont utilisées. | `--categories Travel Science` |
-| `--quantity`     | ❌           | Nombre de livres maximum à récupérer par catégorie.                                   | `--quantity 5`                |
-| `--informations` | ❌           | Type d’informations à extraire (ex: `prices`, `availability`, `rating`, `all`).       | `--informations prices`       |
+| `--delay`     | ❌           | Le délais entre chaque requêtes (par seconde).                                   | `--delay 10`                |
+| `--outdir` | ❌           | Change la sortie pour les informations récupérer       | `--outdir "output"`       |
 | `--max_page`     | ❌           | Nombre maximal de pages à parcourir dans chaque catégorie.                            | `--max_page 3`                |
 | `--max_book`     | ❌           | Nombre maximal de livre à récupérer.                                                  | `--max_book 5`                |
 
