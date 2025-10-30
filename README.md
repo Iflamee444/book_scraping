@@ -1,5 +1,6 @@
 Projet : BookToScrap Scraper
-**Auteur :** Iflamee Lougdy  
+
+**Auteurs :** RAVELOSON Marius - GELAC Yoan
 **Date :** Octobre 2025  
 
 ---
