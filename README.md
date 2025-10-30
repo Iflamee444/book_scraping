@@ -31,7 +31,7 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 | ---------------- | ----------- | -------------------------------------------------------------------------------------  | ----------------------------- |
 | `--categories`   | ❌           | Liste des catégories à scraper. Si non précisé, toutes les catégories sont utilisées. | `--categories Travel Science` |
 | `--delay`     | ❌           | Le délais entre chaque requêtes (par seconde).                                   | `--delay 10`                |
-| `--outdir` | ❌           | Change la sortie pour les informations récupérer       | `--outdir "output"`       |
+| `--outdir` | ❌           | Change la sortie pour les informations récupérer       | `--outdir output`       |
 | `--max_page`     | ❌           | Nombre maximal de pages à parcourir dans chaque catégorie.                            | `--max_page 3`                |
 | `--max_book`     | ❌           | Nombre maximal de livre à récupérer.                                                  | `--max_book 5`                |
 
@@ -41,8 +41,8 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 
 ### Commande :
 ```bash
-python.exe scrape.py --categories Travel Science --quantity 5 --informations prices
-
+python.exe scrape.py --categories Travel Science --max_book 5 --outdir my_books
+```
 ## 🧾 Licence
 
 Projet open-source à but éducatif. L’auteur décline toute responsabilité quant à l’usage du script sur des sites autres que BooksToScrape.
