@@ -1,6 +1,7 @@
 Projet : BookToScrap Scraper
 
 **Auteurs :** RAVELOSON Marius - GELAC Yoan
+
 **Date :** Octobre 2025  
 
 ---
