@@ -39,6 +39,11 @@ Le script génère un fichier CSV contenant les données structurées et nettoy�
 
 ## 💻 Exemple d’exécution  
 
+### Requirement (obligatoire):
+```bash
+pip install -r requirements.txt
+```
+
 ### Commande :
 ```bash
 python.exe scrape.py --categories Travel Science --max_book 5 --outdir my_books
